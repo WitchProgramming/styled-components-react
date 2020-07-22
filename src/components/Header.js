@@ -10,13 +10,14 @@ align-items: center;
 width: 100%;
 height: 60px;
 `
-const Item = styled.div `
-font-size: 14px;
-font-family: 'Read';
-font-weight: bold;
-color: #fff;
+const Item = styled.a `
+font-size: 20px;
+font-family: fantasy;
+color: #000;
+padding: 50px;
+box-sizing: border-box;
 `
-
+/*Header - cabeçalho */
 export default function header() {
     return(
         <Nav>
